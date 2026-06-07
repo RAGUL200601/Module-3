@@ -1,30 +1,24 @@
-# Regex in Python: Filter Words Without the Letter 'e'
+# List Operations in Python: Sum of List Items
 
 ## 🎯 Aim
-To write a Python program that filters out and returns all elements from a list **that do not contain the letter `'e'`**, using **regular expressions (regex)**.
+To write a Python program that calculates the **sum of all elements** in a list.
 
 ## 🧠 Algorithm
-1. Import the `re` module.
-2. Initialize an empty list `l1` to store results.
-3. Define a list of words:  
-   `items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']`
-4. Iterate through each word in the list:
-   - Use `re.search(r"e", i)` to check if the word contains `'e'`.
-   - If **not**, append the word to `l1`.
-5. Print the final filtered list.
+1. Define a list of numbers.
+2. Use Python’s built-in `sum()` function to calculate the total.
+3. Print the result.
 
 ## 🧾 Program
+
 ```
-import re
-l1 = []
-items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
-for i in items:
-    if not re.search(r"e", i):
-        l1.append(i)
-print("Words without 'e':", l1)
+items=[153,147,124,102]
+print(sum(items))
 ```
+
+
 ## Output
-<img width="532" height="161" alt="438923251-219bafb9-9080-4a9e-b381-3058a9d17319" src="https://github.com/user-attachments/assets/b82b9beb-321a-4238-a945-b62151b0132c" />
+<img width="953" height="193" alt="438921806-405f5376-3d21-4382-b1f7-adb3de19f045" src="https://github.com/user-attachments/assets/c6ad6586-c915-4ccc-a8ec-61eb848c6d56" />
+
 
 ## Result
-Thus the program executed successfully.
+Thus the program executed successfully
